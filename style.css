@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -13,21 +13,27 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1f2937;
-  }
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+}
 
 button {
-    color: #f9faf8;
-    background-color: #3882f6;
-    font-weight: 600;
+  color: #f9faf8;
+  background-color: #3882f6;
+  font-weight: 600;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
+}
+
+.header,
+.blue-box {
+  padding: 0 100px;
 }
 
 .links > a,
@@ -38,14 +44,19 @@ button {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 800;
-    color: #f9faf8;
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9faf8;
 }
 
 .top-links {
   display: flex;
   justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
 }
 
 .subtitle {
@@ -68,6 +79,7 @@ button {
 .content {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .infos {
@@ -105,6 +117,11 @@ button {
   font-style: italic;
 }
 
+.quote p {
+    width: 80%;
+    margin: 50px auto 30px auto;
+}
+
 .signature {
   text-align: right;
   font-style: normal;
@@ -125,6 +142,6 @@ button {
 }
 
 .blue-box {
-    background-color: #3882f6;
-    color: #e5e7eb;
+  background-color: #3882f6;
+  color: #e5e7eb;
 }
