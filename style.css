@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+    display: flex;
+}
+
+.left-subtitle {
+    flex: 1;
+}
+
+.right-subtitle {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
