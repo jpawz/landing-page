@@ -68,6 +68,11 @@ body {
     text-align: right;
 }
 
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
 .footer {
     display: flex;
     justify-content: center;
