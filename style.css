@@ -4,26 +4,57 @@ body {
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .top-links {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .subtitle {
-    display: flex;
+  display: flex;
 }
 
 .left-subtitle {
-    flex: 1;
+  flex: 1;
 }
 
 .right-subtitle {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.infos {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+}
+
+.card > p {
+  text-align: center;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+  border-radius: 15px;
 }
