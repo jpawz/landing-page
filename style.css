@@ -1,11 +1,44 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+  }
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-weight: 600;
 }
 
 .header {
   display: flex;
   flex-direction: column;
+  background-color: #1f2937;
+}
+
+.links > a,
+.left-subtitle > p {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
 }
 
 .top-links {
@@ -26,6 +59,8 @@ body {
   flex: 1;
   align-items: center;
   justify-content: center;
+  color: #e5e7eb;
+  background-color: gray;
 }
 
 .content {
@@ -60,20 +95,34 @@ body {
 }
 
 .quote {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
 }
 
 .signature {
-    text-align: right;
+  text-align: right;
+  font-style: normal;
+  font-weight: 700;
+  font-size: smaller;
 }
 
 .bottom {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    color: #e5e7eb;
 }
