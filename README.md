@@ -1,0 +1,1 @@
+Project: Landing Page for The odin project course.
