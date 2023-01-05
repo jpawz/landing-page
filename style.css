@@ -23,6 +23,17 @@ button {
   color: #f9faf8;
   background-color: #3882f6;
   font-weight: 600;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.left-subtitle > button {
+  border: none;
+}
+
+.bottom > button {
+  border: 2px solid white;
 }
 
 .header {
